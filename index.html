@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Bài tập] Ứng dụng chuyển đổi tiền tệ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="get">
+        <!-- input currency -->
+        <label for="" class="float-left input">
+            <p class="center"><b>Amount</b></p>
+            <input type="number"name="currency" id="currency">
+        </label>
+        <!-- From currency -->
+        <label for="" class="float-left">
+            <p><b>From Currency</b></p>
+            <select name="" id="from-currency">
+                <option value="23000">VND</option>
+                <option value="1">USD</option>
+            </select>
+        </label>
+        <!-- To currency -->
+        <label for="" class="float-left">
+            <p><b>To Currency</b></p>
+            <select name="" id="to-currency">
+                <option value="1">USD</option>
+                <option value="23000">VND</option>
+            </select>
+        </label>
+        <!-- Submit -->
+        <label for="" class="float-left submit" >
+            <input type="button" value="Convert!" onclick="convert()">
+        </label>
+    </form> <br> <br>
+    <p id="result"></p>
+</body>
+<script src="script.js"></script>
+</html>
